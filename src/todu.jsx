@@ -21,14 +21,23 @@
 
 
 
+// export default function Tudo({ task, isDane, time = 0 }) {
+
+//     if (isDane === true) {
+//         return <li> Done: {task} dorition: {time} </li>
+//     }
+//     return <li> to be done: {task} {time} </li>
+
+
+
+
+// }
 export default function Tudo({ task, isDane, time = 0 }) {
 
-    if (isDane === true) {
-        return <li> Done: {task} dorition: {time} </li>
-    }
-    return <li> to be done: {task} {time} </li>
-
-
+    return isDane || <li> Not Done Task:  {task} time: {time}</li>
 
 
 }
+
+
+
