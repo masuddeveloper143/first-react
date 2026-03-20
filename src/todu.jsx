@@ -56,7 +56,7 @@ export default function Tudo({ task, isDone }) {
     }
 
     else {
-        return <li>padding: {task} time: {time}</li>;
+        return <li>padding: {task}</li>;
     }
 }
 
