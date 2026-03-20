@@ -93,6 +93,9 @@ export default function Tudo({ task, isDone, time }) {
 
 
 
+
+
+
 // export default function Tudo({ task, isDone }) {
 //     if (isDone === true) {
 //         return <li>Done Task: {task} </li>
