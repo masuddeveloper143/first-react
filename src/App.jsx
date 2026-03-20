@@ -1,6 +1,7 @@
 
+import Actor from './actors';
 import './App.css'
-import Tudo from './todu';
+import Actor from './Actor';
 
 function App() {
 
@@ -13,8 +14,11 @@ function App() {
     <>
       <h1>React core consept </h1>
       {
-        actors.map(actor => actor.toUpperCase())
+        actors.map(actor => <Actor></Actor> )
       }
+
+
+
       {/* <h1>vite React</h1>
       <Tudo task="larne react" isDone={true} time="time"></Tudo >
       <Tudo task="Riverse Js" isDone={false} time="" ></Tudo >
