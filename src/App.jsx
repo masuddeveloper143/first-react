@@ -4,14 +4,14 @@ import Actor from './actor';
 
 function App() {
 
-  const actors = ['Bappa raj', 'salman sah', 'omor sanai']
+  const actors = ['Bappa raj', 'salman sah', 'omor sanai', 'josim', 'anowar']
 
   return (
 
     <>
       <h1>React core consept </h1>
       {
-        actors.map(actor => <Actor>|</Actor>)
+        actors.map(actor => <Actor actor={actor}>|</Actor>)
       }
 
 

@@ -1,3 +1,3 @@
-export default function Actor() {
-    return <li>Nayok: </li>
+export default function Actor({ actor }) {
+    return <li>Nayok: {actor} </li>
 }
