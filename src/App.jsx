@@ -11,9 +11,9 @@ function App() {
 
     <>
       <h1>vite React</h1>
-      <Tudo task="larne react" isDone={true} time=""></Tudo >
+      <Tudo task="larne react" isDone={true} time="time"></Tudo >
       <Tudo task="Riverse Js" isDone={false} time="" ></Tudo >
-      <Tudo task="Take a shower" isDone={false} time="" ></Tudo >
+      <Tudo task="Take a shower" isDone={true} time="" ></Tudo >
 
       {/* <Person />
       <Person></Person>

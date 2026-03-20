@@ -77,7 +77,7 @@ export default function Tudo({ task, isDone, time }) {
     let listItem;
 
     if (isDone === true) {
-        listItem = <li> Done: {task} time: {time ? 'I am done' : 'not done yet'} </li>;
+        listItem = <li> Done: {task} time: {time ? 'I am done' : 'not done yet'} </li>
     }
 
     else {
