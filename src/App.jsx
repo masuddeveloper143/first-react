@@ -4,7 +4,7 @@ import Tudo from './todu';
 
 function App() {
 
-  const time = 40;
+  const actors = ['Bappa raj', 'salman sah', 'omor sanai']
 
   return (
 
@@ -12,7 +12,7 @@ function App() {
 
     <>
 
-    
+
       {/* <h1>vite React</h1>
       <Tudo task="larne react" isDone={true} time="time"></Tudo >
       <Tudo task="Riverse Js" isDone={false} time="" ></Tudo >
