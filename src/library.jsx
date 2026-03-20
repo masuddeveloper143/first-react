@@ -1,3 +1,5 @@
+import Book from './book';
+
 export default function Library({books}){
     return(
         <div>
@@ -7,7 +9,7 @@ export default function Library({books}){
 
             <ul>
                 {
-                 books.map(book => )   
+                 books.map(book =>  <Book key={book.id} book={book}></Book>)   
                 }
             </ul>
         </div>

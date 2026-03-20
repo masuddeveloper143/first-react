@@ -3,9 +3,10 @@ import './App.css'
 import Actor from './actor';
 import Singer from './Singer';
 import Library from './library';
-import Book from './book';
+import Book from './book.jsx';
 
 function App() {
+
 
   const actors = ['Bappa raj', 'salman sah', 'omor sanai', 'josim', 'anowar']
 
@@ -26,34 +27,26 @@ function App() {
   ]
 
 
-
-
-
-
-
-
-
   return (
 
     <>
-      <h1>React core consept </h1>
 
-      <library books={books}></library>
-
+      <Library books={books} ></Library>
 
 
 
 
 
 
-      {/* {
+
+      {
         singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
-      } */}
+      }
 
-      {/*       
+
       {
         actors.map(actor => <Actor actor={actor}>|</Actor>)
-      } */}
+      }
 
 
 
