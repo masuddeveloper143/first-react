@@ -71,12 +71,13 @@
 
 export default function Tudo({ task, isDone, time }) {
 
-    const displayaTime = time ? time : 100;
+    // const displayaTime = time ? time : 100;
 
-        let listItem;
+
+    let listItem;
 
     if (isDone === true) {
-        listItem = <li> Done task: {task}</li>;
+        listItem = <li> Done: {task} time: {time ? 'I am done' : 'not done yet'} </li>;
     }
 
     else {
