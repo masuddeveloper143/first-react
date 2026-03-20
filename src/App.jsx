@@ -7,11 +7,13 @@ function App() {
   const time = 40;
 
   return (
+
+
     <>
       <h1>vite React</h1>
-      <Tudo task="larne react" isDane={true}></Tudo >
-      <Tudo task="Riverse Js" isDane={true} ></Tudo >
-      <Tudo task="Take a shower" isDane={true} ></Tudo >
+      <Tudo task="larne react" isDone={true}></Tudo >
+      <Tudo task="Riverse Js" isDone={false} ></Tudo >
+      <Tudo task="Take a shower" isDone={true} ></Tudo >
 
       {/* <Person />
       <Person></Person>
