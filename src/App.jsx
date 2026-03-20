@@ -1,18 +1,57 @@
 
 import './App.css'
 import Actor from './actor';
+import Singer from './Singer';
 
 function App() {
 
   const actors = ['Bappa raj', 'salman sah', 'omor sanai', 'josim', 'anowar']
 
+
+  const singers = [
+    { id: 1, name: "mahfuze singer", age: 33 },
+    { id: 2, name: "tahsan", age: 33 },
+    { id: 3, name: "shuvro deveh", age: 33 },
+
+  ]
+
+
+const  books = [
+  {id: 1, name:"Physics", price: 250},
+  {id: 2, name:"Chemistry", price: 350},
+  {id: 3, name:"math", price: 450},
+  {id: 4, name:"Biology", price: 650},
+]
+
+
+
+
+
+
+
+
+
   return (
 
     <>
       <h1>React core consept </h1>
+
+
+
+
+
+
+
+      
+
+      {/* {
+        singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
+      } */}
+
+{/*       
       {
         actors.map(actor => <Actor actor={actor}>|</Actor>)
-      }
+      } */}
 
 
 
