@@ -1,7 +1,6 @@
 
-import Actor from './actors';
 import './App.css'
-import Actor from './Actor';
+import Actor from './actors';
 
 function App() {
 
@@ -14,7 +13,7 @@ function App() {
     <>
       <h1>React core consept </h1>
       {
-        actors.map(actor => <Actor></Actor> )
+        actors.map(actor => <Actor name={actor}></Actor>)
       }
 
 
@@ -46,91 +45,91 @@ function App() {
 }
 
 
-function Salami({ event, Amount = 0 }) {
+// function Salami({ event, Amount = 0 }) {
 
-  return (
-    <>
-      <div className='person'>
-        <p> Salami for: {event} </p>
-        <p> Amount: {Amount} </p>
+//   return (
+//     <>
+//       <div className='person'>
+//         <p> Salami for: {event} </p>
+//         <p> Amount: {Amount} </p>
 
-      </div>
+//       </div>
 
-    </>
-  )
-}
-
-
+//     </>
+//   )
+// }
 
 
 
 
 
 
-function Player({ name, Runs }) {
-
-  return (
-    <>
-      <div className='person'>
-        <p> name: {name} </p>
-        <p> Runs: {Runs} </p>
-
-      </div>
-
-    </>
-  )
-}
 
 
+// function Player({ name, Runs }) {
 
-function Person() {
+//   return (
+//     <>
+//       <div className='person'>
+//         <p> name: {name} </p>
+//         <p> Runs: {Runs} </p>
 
-  const age = 24;
-  const name = "masud";
-  const id = 23;
-  const personStyle = {
-    color: 'blue',
-    textAlign: 'left'
-  }
-  return (
-    <>
-      <div className='person'>
-        <p style={personStyle}>I am a person {id} {name}</p>
+//       </div>
 
-      </div>
-
-    </>
-  )
-}
+//     </>
+//   )
+// }
 
 
-function Sports() {
 
-  return (
-    <>
-      <h1>cricket</h1>
+// function Person() {
 
+//   const age = 24;
+//   const name = "masud";
+//   const id = 23;
+//   const personStyle = {
+//     color: 'blue',
+//     textAlign: 'left'
+//   }
+//   return (
+//     <>
+//       <div className='person'>
+//         <p style={personStyle}>I am a person {id} {name}</p>
 
-    </>
-  )
-}
+//       </div>
 
-
-function Deloper(props) {
-  console.log(props);
-  return (
-    <>
-      <div style={{
-        border: '2px solid green',
-        borderRadius: '20px',
-      }}>
-        <h3>Deloper: {props.name} </h3>
-        <p> techlogy: {props.tech} </p>
-      </div>
+//     </>
+//   )
+// }
 
 
-    </>
-  )
-}
+// function Sports() {
+
+//   return (
+//     <>
+//       <h1>cricket</h1>
+
+
+//     </>
+//   )
+// }
+
+
+// function Deloper(props) {
+//   console.log(props);
+//   return (
+//     <>
+//       <div style={{
+//         border: '2px solid green',
+//         borderRadius: '20px',
+//       }}>
+//         <h3>Deloper: {props.name} </h3>
+//         <p> techlogy: {props.tech} </p>
+//       </div>
+
+
+//     </>
+//   )
+// }
 
 export default App
