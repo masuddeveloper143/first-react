@@ -2,7 +2,7 @@
 import './App.css'
 import Actor from './actor';
 import Singer from './Singer';
-import library from 
+import library from './library';
 
 function App() {
 
@@ -17,12 +17,12 @@ function App() {
   ]
 
 
-const  books = [
-  {id: 1, name:"Physics", price: 250},
-  {id: 2, name:"Chemistry", price: 350},
-  {id: 3, name:"math", price: 450},
-  {id: 4, name:"Biology", price: 650},
-]
+  const books = [
+    { id: 1, name: "Physics", price: 250 },
+    { id: 2, name: "Chemistry", price: 350 },
+    { id: 3, name: "math", price: 450 },
+    { id: 4, name: "Biology", price: 650 },
+  ]
 
 
 
@@ -37,7 +37,7 @@ const  books = [
     <>
       <h1>React core consept </h1>
 
-
+      <library books={books}></library>
 
 
 
@@ -49,7 +49,7 @@ const  books = [
         singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
       } */}
 
-{/*       
+      {/*       
       {
         actors.map(actor => <Actor actor={actor}>|</Actor>)
       } */}
