@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>vite React</h1>
-      <Tudo task="larne react" isDane={false}></Tudo >
+      <Tudo task="larne react" isDane={true}></Tudo >
       <Tudo task="Riverse Js" isDane={true} ></Tudo >
       <Tudo task="Take a shower" isDane={true} ></Tudo >
 
