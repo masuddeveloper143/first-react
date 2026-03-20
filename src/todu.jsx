@@ -54,12 +54,14 @@ export default function Tudo({ task, isDone }) {
     let listItem;
 
     if (isDone === true) {
-        listItem = <li> Done task: { task }</li>;
+        listItem = <li> Done task: {task}</li>;
     }
 
     else {
-        return <li>padding: {task}</li>;
+        listItem = <li>padding: {task}</li>;
     }
+
+    return listItem;
 }
 
 
