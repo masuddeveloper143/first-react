@@ -2,7 +2,8 @@
 import './App.css'
 import Actor from './actor';
 import Singer from './Singer';
-import library from './library';
+import Library from './library';
+import Book from './book';
 
 function App() {
 
