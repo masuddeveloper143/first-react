@@ -69,7 +69,9 @@
 
 
 
-export default function Tudo({ task, isDone }) {
+export default function Tudo({ task, isDone, time }) {
+
+    const disp
 
     let listItem;
 
