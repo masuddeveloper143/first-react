@@ -50,8 +50,11 @@
 
 
 export default function Tudo({ task, isDone }) {
+
+    let listItem;
+
     if (isDone === true) {
-        return null; // কিছুই দেখাবে না
+        listItem = <li> Done task: { task }</li>;
     }
 
     else {
