@@ -71,9 +71,9 @@
 
 export default function Tudo({ task, isDone, time }) {
 
-    const disp
+    const displayaTime = time ? time : 100;
 
-    let listItem;
+        let listItem;
 
     if (isDone === true) {
         listItem = <li> Done task: {task}</li>;
