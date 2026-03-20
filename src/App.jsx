@@ -1,6 +1,6 @@
 
 import './App.css'
-import Actor from './actors';
+import Actor from './actor';
 
 function App() {
 
@@ -8,13 +8,12 @@ function App() {
 
   return (
 
-
-
     <>
       <h1>React core consept </h1>
       {
-        actors.map(actor => <Actor name={actor}></Actor>)
+        actors.map(actor => <Actor>|</Actor>)
       }
+
 
 
 
