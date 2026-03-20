@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <h1>vite React</h1>
-      <Tudo task="larne react" isDane={true} time={time}></Tudo >
-      <Tudo task="Riverse Js" isDane={false} time=""></Tudo >
-      <Tudo task="Take a shower" isDane={true} time=""></Tudo >
+      <Tudo task="larne react" isDane={false}></Tudo >
+      <Tudo task="Riverse Js" isDane={true} ></Tudo >
+      <Tudo task="Take a shower" isDane={true} ></Tudo >
 
       {/* <Person />
       <Person></Person>
